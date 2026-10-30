@@ -24,7 +24,7 @@ Apply the plugin to the application module. For a published release, Gradle Plug
 
 ```groovy
 plugins {
-    id 'ru.insoftjla.gradle.required-env' version '0.1.0'
+    id 'io.github.insoftjla.required-env' version '0.1.0'
 }
 ```
 
@@ -32,7 +32,7 @@ plugins {
 
 ```kotlin
 plugins {
-    id("ru.insoftjla.gradle.required-env") version "0.1.0"
+    id("io.github.insoftjla.required-env") version "0.1.0"
 }
 ```
 

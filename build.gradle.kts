@@ -18,12 +18,11 @@ gradlePlugin {
 
     plugins {
         create("requiredEnv") {
-            id = "ru.insoftjla.gradle.required-env"
+            id = "io.github.insoftjla.required-env"
             implementationClass = "ru.insoftjla.gradle.env.RequiredEnvPlugin"
 
             displayName = "Required ENV Gradle Plugin"
-            description =
-                "Collects required environment variables from Spring configuration files in Gradle project dependencies"
+            description = "Collects required environment variables from Spring configuration files in Gradle project dependencies"
 
             tags = listOf(
                 "environment",
