@@ -5,7 +5,7 @@ plugins {
     kotlin("jvm") version "2.3.20"
 }
 
-group = "ru.insoftjla.gradle"
+group = "io.github.insoftjla"
 version = "0.1.0"
 
 repositories {
@@ -19,7 +19,8 @@ gradlePlugin {
     plugins {
         create("requiredEnv") {
             id = "io.github.insoftjla.required-env"
-            implementationClass = "ru.insoftjla.gradle.env.RequiredEnvPlugin"
+
+            implementationClass = "io.github.insoftjla.env.RequiredEnvPlugin"
 
             displayName = "Required ENV Gradle Plugin"
             description = "Collects required environment variables from Spring configuration files in Gradle project dependencies"

@@ -1,4 +1,4 @@
-package ru.insoftjla.gradle.env
+package io.github.insoftjla.env
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.ConfigurableFileCollection
